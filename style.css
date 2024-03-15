@@ -11,26 +11,51 @@ body {
 #szubienica-wrapper {
     width: 80%;
     margin: 10px auto;
+    display: flex;
+    flex-direction: row;
 }
 
 #szubienica {
-    width: 45%;
+    width: 48%;
     display: inline-block;
     margin: 0;
 }
 
 #szubienica img {
     width: 100%;
+    margin: 0;
 }
 
 #litery {
-    width: 45%;
-    height: 467px;
-    display: inline-block;
+    vertical-align: top;
+    width: 48%;
+    display: grid;
+    grid-template-rows: repeat(8,1fr);
+    grid-template-columns: repeat(4, 1fr);
     margin: 0;
+    text-align: center;
+    align-items: center;
+    font-size: 35px;
 }
 
 .letter {
     color: lightgrey;
     display: inline-block;
+    border: 2px solid lightgrey;
+    border-radius: 15px;
+    margin: 10px 30px;
+    cursor: pointer;
+}
+
+.letter:hover {
+    color: white;
+    border: 2px solid white;
+    background-color: darkgray;
+}
+
+#result {
+    color: lightgrey;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
 }
