@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+#haslo {
+    font-size: 70px;
+    text-align: center;
+    color: lightgrey;
+}
+
+#szubienica-wrapper {
+    width: 80%;
+    margin: 10px auto;
+}
+
+#szubienica {
+    width: 45%;
+    display: inline-block;
+    margin: 0;
+}
+
+#szubienica img {
+    width: 100%;
+}
+
+#litery {
+    width: 45%;
+    height: 467px;
+    display: inline-block;
+    margin: 0;
+}
+
+.letter {
+    color: lightgrey;
+    display: inline-block;
+}
